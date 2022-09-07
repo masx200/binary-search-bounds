@@ -1,5 +1,5 @@
 {
-  "name": "binary-search-bounds",
+  "name": "@masx200/binary-search-bounds",
   "version": "2.0.4",
   "description": "Better binary searching",
   "main": "search-bounds.js",
