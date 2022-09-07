@@ -10,7 +10,7 @@ The main reason for using a [binary search](https://en.wikipedia.org/wiki/Binary
 
 ```javascript
 //Import module
-var bounds = require('binary-search-bounds')
+var bounds = require('@masx200/binary-search-bounds')
 
 //Create an array
 var array = [1, 2, 3, 3, 3, 5, 6, 10, 11, 13, 50, 1000, 2200]
@@ -66,7 +66,7 @@ What has more than 4 legs? Answer: { legs: 6, name: 'ant' }
 Using [npm](https://docs.npmjs.com/), you can install the library as follows:
 
 ```
-npm install binary-search-bounds
+npm install @masx200/binary-search-bounds
 ```
 
 This module works great with [browserify](http://browserify.org/) if you want to use it in front end projects.
@@ -74,7 +74,7 @@ This module works great with [browserify](http://browserify.org/) if you want to
 ## API
 
 ```javascript
-var bounds = require('binary-search-bounds')
+var bounds = require('@masx200/binary-search-bounds')
 ```
 
 #### `bounds.lt(array, y[, cmp, lo, hi])`
