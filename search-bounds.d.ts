@@ -1,37 +1,37 @@
 //declare module 'binary-search-bounds' {
 interface BSearch {
-    gt<T>(
-        array: T[],
-        y: T,
-        compare?: (a: T, b: T) => number | null | undefined,
+    gt<A, B>(
+        array: A[],
+        y: B,
+        compare?: (a: A, b: B) => number | null | undefined,
         lo?: number,
         hi?: number
     ): number;
-    ge<T>(
-        array: T[],
-        y: T,
-        compare?: (a: T, b: T) => number | null | undefined,
+    ge<A, B>(
+        array: A[],
+        y: B,
+        compare?: (a: A, b: B) => number | null | undefined,
         lo?: number,
         hi?: number
     ): number;
-    lt<T>(
-        array: T[],
-        y: T,
-        compare?: (a: T, b: T) => number | null | undefined,
+    lt<A, B>(
+        array: A[],
+        y: B,
+        compare?: (a: A, b: B) => number | null | undefined,
         lo?: number,
         hi?: number
     ): number;
-    le<T>(
-        array: T[],
-        y: T,
-        compare?: (a: T, b: T) => number | null | undefined,
+    le<A, B>(
+        array: A[],
+        y: B,
+        compare?: (a: A, b: B) => number | null | undefined,
         lo?: number,
         hi?: number
     ): number;
-    eq<T>(
-        array: T[],
-        y: T,
-        compare?: (a: T, b: T) => number | null | undefined,
+    eq<A, B>(
+        array: A[],
+        y: B,
+        compare?: (a: A, b: B) => number | null | undefined,
         lo?: number,
         hi?: number
     ): number;
